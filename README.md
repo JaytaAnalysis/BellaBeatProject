@@ -6,8 +6,8 @@ Date: 2023-06-21
 
 ## Introduction
 
-[Bellabeat](https://bellabeat.com/) is a company that specializes in producing health-based
-technology products for women. One of their products, the Leaf, can be
+Bellabeat is a company that specializes in producing health-based
+technology products for women. One of their products, the [Leaf](https://bellabeat.com/product/leaf-urban/), can be
 attached to common accessories like bracelets, necklaces, or clips. The
 Leaf communicates health data to the user’s Bellabeat app so that the
 user can monitor their health data. This product bears a lot of
