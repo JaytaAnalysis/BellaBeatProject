@@ -153,7 +153,7 @@ ggplot(data = summary_intensity_hr) +
   theme(axis.text.x = element_text(angle = 45))
 ```
 
-![](BellaBeatCode_files/figure-gfm/user%20hourly%20intensities-1.png)<!-- -->
+![](Figures/UserHourlyIntensity.png)<!-- -->
 
 In this figure the hourly intensity is averaged over all users and
 plotted against the hour of the day. What we see looks like an
@@ -209,7 +209,7 @@ ggplot(data=plot_df01, aes(x = fct_inorder(x1),y = y1,fill = fct_inorder(fill1))
   labs(x = "Day of the Week", y = "Minutes of Activity", title = "Relative Spread of Activity Type Throughout Week", fill = "Activity Type")
 ```
 
-![](BellaBeatCode_files/figure-gfm/intensity%20types%20throughout%20the%20week-1.png)<!-- -->
+![](Figures/IntensityTypesDuringWeek.png)<!-- -->
 
 The stacked bar chart shows how the activity types vary throughout an
 average week and how they vary relative to each other. The main takeaway
@@ -238,7 +238,7 @@ ggplot(data = plot_df03, aes(x=StepTotal, y=Calories)) +
 
     ## `geom_smooth()` using formula = 'y ~ x'
 
-![](BellaBeatCode_files/figure-gfm/correlate%20calories%20burned%20with%20total%20distance%20traveled%20and%20percent%20active-1.png)<!-- -->
+![](Figures/CalorieCorrelationWithSteps.png)<!-- -->
 
 ``` r
 #
@@ -254,7 +254,7 @@ ggplot(data=plot_df05, aes(x=TotalDistance, y=Calories)) +
 
     ## `geom_smooth()` using formula = 'y ~ x'
 
-![](BellaBeatCode_files/figure-gfm/correlate%20calories%20burned%20with%20total%20distance%20traveled%20and%20percent%20active-2.png)<!-- -->
+![](Figures/CalorieCorrelationWithDistance.png)<!-- -->
 
 ``` r
 #
@@ -271,7 +271,7 @@ ggplot(data=plot_df06, aes(x=percent_active, y=Calories)) +
 
     ## `geom_smooth()` using formula = 'y ~ x'
 
-![](BellaBeatCode_files/figure-gfm/correlate%20calories%20burned%20with%20total%20distance%20traveled%20and%20percent%20active-3.png)<!-- -->
+![](Figures/CalorieCorrelationWithTime.png)<!-- -->
 
 In all three scatter plots, we see clear positive correlations between
 steps taken, distance traveled, and amount of activity. Further analysis
