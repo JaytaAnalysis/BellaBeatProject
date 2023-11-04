@@ -154,6 +154,7 @@ ggplot(data = summary_intensity_hr) +
 ```
 
 ![](BellaBeatCode_files/figure-gfm/user%20hourly%20intensities-1.png)<!-- -->
+
 In this figure the hourly intensity is averaged over all users and
 plotted against the hour of the day. What we see looks like an
 approximately bimodal distribution where the modes appear to be around
@@ -209,6 +210,7 @@ ggplot(data=plot_df01, aes(x = fct_inorder(x1),y = y1,fill = fct_inorder(fill1))
 ```
 
 ![](BellaBeatCode_files/figure-gfm/intensity%20types%20throughout%20the%20week-1.png)<!-- -->
+
 The stacked bar chart shows how the activity types vary throughout an
 average week and how they vary relative to each other. The main takeaway
 is that in an average week people have approximately the same
@@ -270,6 +272,7 @@ ggplot(data=plot_df06, aes(x=percent_active, y=Calories)) +
     ## `geom_smooth()` using formula = 'y ~ x'
 
 ![](BellaBeatCode_files/figure-gfm/correlate%20calories%20burned%20with%20total%20distance%20traveled%20and%20percent%20active-3.png)<!-- -->
+
 In all three scatter plots, we see clear positive correlations between
 steps taken, distance traveled, and amount of activity. Further analysis
 could be done on the slopes of these lines of best fit to more
