@@ -1,9 +1,10 @@
-Bellabeat Fitness Tracker Trends Project
-================
-Justin White
-2023-06-21
+# Bellabeat Fitness Tracker Trends Project
 
-# Introduction
+Author: Justin White
+
+Date: 2023-06-21
+
+## Introduction
 
 Bellabeat is a company that specializes in producing health-based
 technology products for women. One of their products, the Leaf, can be
@@ -121,9 +122,9 @@ sleep_minute_df <- read.csv("minuteSleep_merged.csv",header=TRUE)
 weightlog_df <- read.csv("weightLogInfo_merged.csv",header=TRUE)
 ```
 
-# Exploring Fitbit Data
+## Exploring Fitbit Data
 
-## When Are People Most Active During the Day?
+### When Are People Most Active During the Day?
 
 ``` r
 # Visualize how the users' intensities vary throughout the hours of an average day.
@@ -173,7 +174,7 @@ the data shown was already converted to a common timezone. Analyzing
 data from sources that include time zone information would be important
 before drawing confident conclusions from this chart.
 
-## Are People More Active During Certain Days of the Week?
+### Are People More Active During Certain Days of the Week?
 
 ``` r
 # Create a data summary that shows average intensity levels of each type during each day of the week.
@@ -220,7 +221,7 @@ Bellabeat should focus on notifying their users. Additionally, we can
 see that people engage in light activity significantly more frequently
 than fair/high activity.
 
-## Relationshp Between Calories Burned, Steps Taken, Distance Traveled, and Percentage of Activity
+### Relationshp Between Calories Burned, Steps Taken, Distance Traveled, and Percentage of Activity
 
 ``` r
 # Inner join the calories and steps hourly data
@@ -282,7 +283,7 @@ Bellabeat can use that information to encourage users to increase their
 steps/distance/minutes of activity and provide them a predicted increase
 of calories burned if they can do so.
 
-# Conclusions
+## Conclusions
 
 Based on the analysis of this Fitbit data, my high-level recommendations
 to Bellabeat are: focus their communications and notifications to their
