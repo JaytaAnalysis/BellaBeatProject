@@ -1,4 +1,4 @@
-BellaBeat Capstone Project
+Bellabeat Fitness Tracker Trends Project
 ================
 Justin White
 2023-06-21
